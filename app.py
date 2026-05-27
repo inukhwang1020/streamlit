@@ -148,7 +148,7 @@ with right:
     st.markdown("""
     <p style="line-height:1.85;color:#374151;font-size:15px;">
       안녕하세요, 한전KDN 송변전시스템부에서 근무하고 있는
-      <strong>황인욱 과장</strong>입니다.
+      <strong>황인욱</strong>입니다.
     </p>
     <p style="line-height:1.85;color:#374151;font-size:15px;margin-top:14px;">
       전력 시스템 IT 분야에서의 전문성을 바탕으로 송변전 시스템의 안정적인 운영과
