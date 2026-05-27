@@ -89,7 +89,7 @@ st.markdown("""
   .divider { border: none; border-top: 1px solid #f0f0f0; margin: 0; }
 
   /* ── Section ──────────────────────────────────────────── */
-  .section { padding: 64px 0 48px; }
+  .section { max-width: 1100px; margin: 0 auto; padding: 64px 40px 48px; }
   .sec-title {
     display: flex; align-items: center; gap: 12px;
     font-size: 26px; font-weight: 800; color: #111;
@@ -197,8 +197,9 @@ st.markdown("""
 
   /* ── Footer ───────────────────────────────────────────── */
   .footer {
+    max-width: 1100px; margin: 0 auto;
     border-top: 1px solid #f0f0f0;
-    padding: 28px 0; text-align: center;
+    padding: 28px 40px; text-align: center;
     font-size: 13px; color: #bbb; letter-spacing: -.01em;
   }
 </style>
