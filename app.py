@@ -115,7 +115,7 @@ with left:
         ("🏬 부서",   "송변전시스템부"),
         ("💼 직위",   "과장"),
         ("📍 위치",   "대한민국"),
-        ("📧 이메일", "inuk_tiger7@kdn.com"),
+        ("📧 이메일", "xxxx@kdn.com"),
     ]
     for label, value in rows:
         st.markdown(f"""
