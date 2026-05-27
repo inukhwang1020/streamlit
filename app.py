@@ -92,7 +92,7 @@ st.markdown("""
         황인욱
       </div>
       <div style="font-size:17px;opacity:.88;font-weight:400;">
-        과장 &nbsp;/&nbsp; Manager
+        Manager
       </div>
       <div style="font-size:14px;opacity:.7;margin-top:10px;font-weight:400;">
         💡 변전운영분야 시스템 운영
@@ -113,7 +113,7 @@ with left:
     rows = [
         ("🏢 소속",   "한전KDN"),
         ("🏬 부서",   "송변전시스템부"),
-        ("💼 직위",   "과장"),
+        ("💼 직위",   "Manager"),
         ("📍 위치",   "대한민국"),
         ("📧 이메일", "xxxx@kdn.com"),
     ]
