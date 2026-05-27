@@ -20,7 +20,10 @@ st.markdown("""
     background: rgba(255,255,255,0.92);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid #f0f0f0;
-    padding: 18px 80px;
+  }
+  .navbar-inner {
+    max-width: 1100px; margin: 0 auto;
+    padding: 18px 40px;
     display: flex; justify-content: space-between; align-items: center;
   }
   .nav-logo {
@@ -36,7 +39,7 @@ st.markdown("""
   .nav-links a:hover { color: #7c3aed; }
 
   /* ── Page wrapper ─────────────────────────────────────── */
-  .page { max-width: 900px; margin: 0 auto; padding: 0 40px 80px; }
+  .page { max-width: 1100px; margin: 0 auto; padding: 0 40px 80px; }
 
   /* ── Hero ─────────────────────────────────────────────── */
   .hero-wrap {
@@ -204,12 +207,14 @@ st.markdown("""
 # ── Navbar ────────────────────────────────────────────────────
 st.markdown("""
 <div class="navbar">
-  <div class="nav-logo">황인욱<span>.kr</span></div>
-  <div class="nav-links">
-    <a href="#">소개</a>
-    <a href="#">역량</a>
-    <a href="#">경력</a>
-    <a href="#">연락처</a>
+  <div class="navbar-inner">
+    <div class="nav-logo">황인욱<span>.kr</span></div>
+    <div class="nav-links">
+      <a href="#">소개</a>
+      <a href="#">역량</a>
+      <a href="#">경력</a>
+      <a href="#">연락처</a>
+    </div>
   </div>
 </div>
 """, unsafe_allow_html=True)
